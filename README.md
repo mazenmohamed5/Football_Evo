@@ -63,7 +63,7 @@ Interactive Highlights: Allow users to interact with match highlights, choosing 
 # CORS policy prevented some UI content from being displayed.
   # News content for Premier League and Champions league, etc.
 ![Screenshot (63)](https://github.com/user-attachments/assets/96342667-3d29-4ace-9cb0-e7bafab8e747)
-![App Screenshot](images/Screenshot (64))
+![App Screenshot](images/Screenshot%20(63).png)
 
 
 
