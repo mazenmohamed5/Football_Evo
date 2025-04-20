@@ -141,7 +141,7 @@ margin-bottom: 20px;
 }
 
 .team-card {
-    background-image: url(/images/primary-graphic.png);
+    background-image: url(images/primary-graphic.png);
     background-size: 100%;
     background-position: center;
     border-radius: 15px;
@@ -291,14 +291,14 @@ body{
 #home-container{
     height: 780px;
     width: 100%;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(/images/homeBackground3_upscaled.jpg);
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(images/homeBackground3_upscaled.jpg);
     background-size: 100% 100%;
 }
 
 .leagues-container #home-container{
     height: 780px;
     width: 100%;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(/images/home-images/league-bg.jpg);
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(images/home-images/league-bg.jpg);
     background-size: 100% 100%;
 
 }
@@ -525,7 +525,7 @@ body{
     border-radius: 30px;
     position: relative;
     margin: 30px auto;
-    background-image: url('/images/home-images/lautaro.jpg');
+    background-image: url('images/home-images/lautaro.jpg');
     background-size: 100% 100%;
     overflow: hidden;
     box-shadow: 0px 10px 10px rgb(112, 37, 37);
@@ -592,7 +592,7 @@ body{
 }
 
 .background{
-    background-image: url('/images/home-images/rice.jpg');
+    background-image: url('images/home-images/rice.jpg');
     background-size: 100% 100%;
     overflow: hidden;
 }
@@ -608,7 +608,7 @@ body{
 .contact-container #home-container{
     height: 775px;
     width: 100%;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(/images/home-images/contact-background.jpg);
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(images/home-images/contact-background.jpg);
     background-size: 100% 100%;
 }
 .contactUs{
