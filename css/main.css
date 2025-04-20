@@ -1,6 +1,7 @@
 body{
     word-wrap: break-word;
     overflow-x: hidden;
+    width: 100%;
 } 
 
 .bg-primary{
@@ -341,14 +342,19 @@ body{
     position: relative;
 }
 
-.slider{
+
+
+.slider {
     height: 245px;
-    width:736px;
+    width: 100%;
+    max-width: 600px; /* Optional: prevent it from stretching too wide on large screens */
     margin: auto;
     position: absolute;
     top: -130px;
-    left: 25%;  
+    left: 50%;
+    transform: translateX(-50%); /* centers it horizontally */
 }
+
 
 .carousel-img{
     height:245px !important;
@@ -386,7 +392,7 @@ body{
     width: 700px;
     position: absolute;
     top: 270px; 
-    left: 2%;
+    left: -8%;
     text-align: center;
     background: rgba(0, 0, 0, 0.5);
     padding: 20px 30px;
@@ -520,7 +526,7 @@ body{
 
 
 .importantMatch {
-    width: 800px;
+    /* width: 500px; */
     height: 300px;
     border-radius: 30px;
     position: relative;
@@ -608,7 +614,7 @@ body{
 .contact-container #home-container{
     height: 775px;
     width: 100%;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(.../images/home-images/contact-background.jpg);
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(../images/home-images/contact-background.jpg);
     background-size: 100% 100%;
 }
 .contactUs{
@@ -650,10 +656,11 @@ body{
     top: 270px;
     
 }
-.img-fluid{
+/* .img-fluid{
     width: 40px;
     height: 40px;
-}
+} */
+
 
 
 .input-group{
@@ -726,6 +733,14 @@ ul{
     }
 }
   
+
+@media  screen and (max-width: 500px) {
+    .PL-Logo{
+        width: 80px;
+        height: 50px;
+    }
+    
+}
 
 
 
