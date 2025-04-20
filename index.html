@@ -1,12 +1,12 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <title>FootballEvo</title>
-        <link rel="icon" href="images/logo.png" type="image/png">
-
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="Live football scores, groups, and events with ScoreEvo.">
+        <title>FootballEvo</title>
+        <link rel="icon" href="images/logo.png" type="image/png">
 
         <!-- Styles -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -16,11 +16,10 @@
 
     <body>
         <!-- Navbar & Caption -->
-        <div  id="home-container">
+        <div id="home-container">
             <div id="home-header">
-                <nav class="navbar navbar-expand-lg">
+                <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container-fluid">
-        
                         <button class="navbar-toggler" type="button"
                             data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent"
@@ -33,27 +32,21 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="index.html">Home</a>
                                 </li>
-                                
-                                <li class="nav-item ">
-                                    <a class="nav-link" href="leagues.html?League=PL" role="button"  aria-expanded="false">
-                                    Leagues
-                                    </a>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="leagues.html?League=PL" role="button">Leagues</a>
                                 </li>
-
                                 <li class="nav-item">
                                     <a class="nav-link" href="contact.html">Contact</a>
                                 </li>
                             </ul>
-        
                         </div>
                     </div>
                 </nav>
                 <div id="home-header-logo">
-                    <img class="home-header-logo" src="images/home-images/homeLogo.png"  alt="Logo">
+                    <img class="home-header-logo" src="images/home-images/homeLogo.png" alt="Logo">
                 </div>
-        
             </div>
-        
+
             <div id="home-caption">
                 <div class="caption-title">
                     <h3>Where Football Never Sleeps.</h3>
@@ -62,56 +55,26 @@
                     <a class="btn a" href="#">Learn More</a>
                 </div>
             </div>
-
         </div>
 
         <!-- Slider -->
         <div id="second-container">
-
             <div class="slider">
                 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="2000">
-                        <img src="images/home-images/Nazario.jpg" class="d-block carousel-img">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <img src="images/home-images/Nazario.jpg" class="d-block carousel-img img-fluid">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="images/home-images/championscr7.jpg" class="d-block carousel-img img-fluid">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="images/home-images/milantrio.jpg" class="d-block carousel-img img-fluid">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="images/home-images/worldcupMessi.jpg" class="d-block carousel-img img-fluid">
+                        </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img src="images/home-images/championscr7.jpg" class="d-block carousel-img" >
-                    
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img src="images/home-images/milantrio.jpg" class="d-block carousel-img" >
-                    
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img src="images/home-images/worldcupMessi.jpg" class="d-block carousel-img">
-                    
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img src="images/home-images/zizou.jpg" class="d-block carousel-img">
-                    
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img src="images/home-images/backwardRonaldo.jpg" class="d-block carousel-img">
-                    
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img src="images/home-images/zizou&sir.jpg" class="d-block carousel-img">
-                    
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img src="images/home-images/lei-cup.jpg" class="d-block carousel-img">
-                    
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img src="images/home-images/porto.jpg" class="d-block carousel-img">
-                    
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img src="images/home-images/ruicosta.jpg" class="d-block carousel-img">
-                    
-                    </div>
-                    </div>
-                    
                 </div>
 
                 <div class="d-flex justify-content-center gap-1 p-2 rounded button-container">
@@ -119,15 +82,15 @@
                         <i class="fa-solid fa-arrow-left-long"></i>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next static-button" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next" class="text-black">
-                        <i class="fa-solid fa-arrow-right-long"></i> 
+                    <button class="carousel-control-next static-button" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                        <i class="fa-solid fa-arrow-right-long"></i>
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
 
                 <div class="slider-caption">
-                    <p class="text-white p-caption ">Witness the glory, the heartbreak, and the miracles — all in one place.</p>
-                    <p class="text-white p1-caption ">Where every image speaks of a moment that shook the world.</p>
+                    <p class="text-white p-caption">Witness the glory, the heartbreak, and the miracles — all in one place.</p>
+                    <p class="text-white p1-caption">Where every image speaks of a moment that shook the world.</p>
                 </div>
             </div>
         </div>
@@ -135,114 +98,86 @@
         <!-- Leagues News -->
         <div id="news">
             <div class="news-container">
-                
                 <div class="news-title">
-                    <h3 class="text-light heading">
-                        News
-                    </h3>
+                    <h3 class="text-light heading">News</h3>
                 </div>
 
                 <div class="d-flex align-items-start mt-3">
                     <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Champions League</button>
-                    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Premier League</button>
-                    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Seria A</button>
-                    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">La Liga</button>
-                    <button class="nav-link" id="v-pills-bundesliga-tab" data-bs-toggle="pill" data-bs-target="#v-pills-bundesliga" type="button" role="tab" aria-controls="v-pills-bundesliga" aria-selected="false">Bundesliga</button>
-
+                        <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Champions League</button>
+                        <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Premier League</button>
+                        <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Serie A</button>
+                        <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">La Liga</button>
+                        <button class="nav-link" id="v-pills-bundesliga-tab" data-bs-toggle="pill" data-bs-target="#v-pills-bundesliga" type="button" role="tab" aria-controls="v-pills-bundesliga" aria-selected="false">Bundesliga</button>
                     </div>
                     <div class="tab-content" id="v-pills-tabContent">
-                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
-                        <div class="container" id="news-section">
-                            <div class="row" id="news-row">
-            
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                            <div class="container" id="news-section">
+                                <div class="row" id="news-row"></div>
                             </div>
-                            
                         </div>
-                        
-                    </div>
-                    <div class="tab-pane fade" id="v-pills-profile"  role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
-                        <div class="container" id="news-section">
-                            <div class="row" id="plnews-row">
-            
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                            <div class="container" id="news-section">
+                                <div class="row" id="plnews-row"></div>
                             </div>
-                            
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
-                        <div class="container" id="news-section">
-                            <div class="row" id="laliga-row">
-            
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                            <div class="container" id="news-section">
+                                <div class="row" id="laliga-row"></div>
                             </div>
-                            
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
-                        <div class="container" id="news-section">
-                            <div class="row" id="sa-row">
-            
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                            <div class="container" id="news-section">
+                                <div class="row" id="sa-row"></div>
                             </div>
-                            
                         </div>
-                    </div>
-
-                    <div class="tab-pane fade" id="v-pills-bundesliga" role="tabpanel" aria-labelledby="v-pills-bundesliga-tab" tabindex="0">
-                        <div class="container" id="news-section">
-                            <div class="row" id="bundesliga-row">
-            
+                        <div class="tab-pane fade" id="v-pills-bundesliga" role="tabpanel" aria-labelledby="v-pills-bundesliga-tab">
+                            <div class="container" id="news-section">
+                                <div class="row" id="bundesliga-row"></div>
                             </div>
-                            
                         </div>
-                    </div>
-                    
                     </div>
                 </div>
-                
-                
             </div>
         </div>
 
-        <!-- Semi Final  -->
+        <!-- Semi Final -->
         <div id="third-container">
-            <div id="upcomingFeatures ">
+            <div id="upcomingFeatures">
                 <div class="news-container">
                     <div class="news-title">
-                        <div class="heading">
-                            <h3 class="text-light">Semi Final Of Champions League</h3>
-                        </div>
+                        <h3 class="text-light">Semi Final Of Champions League</h3>
                     </div>
-                    
+
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-12 col-md-6">
                             <div class="importantMatch">
-                                <div class="match-1 ">
-                                    <img src="images/home-images/Inter-Milan-logo.png" class="fixtureImg">
+                                <div class="match-1">
+                                    <img src="images/home-images/Inter-Milan-logo.png" class="fixtureImg img-fluid">
                                     <p class="vs">VS</p>
-                                    <img src="images/home-images/barca-logo.png" class="fixtureImg">
-                                </div> 
+                                    <img src="images/home-images/barca-logo.png" class="fixtureImg img-fluid">
+                                </div>
                                 <div class="matchCaption">
                                     <h5>Champions League</h5>
                                     <p><b>Barcelona VS Inter Milan</b></p>
-                                </div> 
+                                </div>
                             </div>
-
                         </div>
-                        <div class="col-md-12">
+
+                        <div class="col-12 col-md-6">
                             <div class="importantMatch background">
-                                <div class="match-1 ">
-                                    <img src="images/home-images/psg-logo1.png" class="fixtureImg">
+                                <div class="match-1">
+                                    <img src="images/home-images/psg-logo1.png" class="fixtureImg img-fluid">
                                     <p class="vs">VS</p>
-                                    <img src="images/home-images/arsenal-logo1.png" class="fixtureImg arsenal">
-                                </div> 
+                                    <img src="images/home-images/arsenal-logo1.png" class="fixtureImg arsenal img-fluid">
+                                </div>
                                 <div class="matchCaption">
                                     <h5>Champions League</h5>
-                                    <p><b>Arsenal VS Paris Saint German</b></p>
-                                </div> 
+                                    <p><b>Arsenal VS Paris Saint-Germain</b></p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    
-                    
                 </div>
             </div>
         </div>
@@ -250,35 +185,17 @@
         <!-- Footer -->
         <div class="footer">
             <marquee>
-            <img src="images/white-cl.png" class="image">
-            <img src="images/bl-logo.png" class="image">
-            <img src="images/white-l1.png" class="image">
-            <img src="images/whitepl.png" class="image">
-            <img src="images/PD-logo.png" class="image">
-            <img src="images/seria.png" class="image ">
+                <img src="images/white-cl.png" class="image">
+                <img src="images/bl-logo.png" class="image">
+                <img src="images/white-l1.png" class="image">
+                <img src="images/white-cl.png" class="image">
             </marquee>
-            <div class="footer-links">
-            <a href="#">About Us</a> | 
-            <a href="#">Contact</a> | 
-            <a href="#">Privacy Policy</a> | 
-            <a href="#">Terms of Service</a>
-            </div>
-            <div class="footer-copyRights w-50">
-    
-            <p class="footer-text text-light ms-2">© 2025 Soccer Evo. All Rights Reserved. | Evolving the Beautiful Game.</p>
-    
-            </div>
-            
         </div>
-        
-        
-        <!-- AXIOS -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.8.4/axios.min.js"></script>
-        <!-- JS scripts -->
+
+        <!-- Scripts -->
         <script src="js/jquery-3.7.1.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script src="home.js"></script>
+        <script src="js/main.js"></script>
     </body>
-
 </html>
