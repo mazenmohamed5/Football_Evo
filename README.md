@@ -59,3 +59,12 @@ Customizable Notifications: Let users subscribe to notifications for specific te
 Player Transfer Tracking: Provide information about player transfers, rumors, and deals across the top leagues.
 
 Interactive Highlights: Allow users to interact with match highlights, choosing specific moments to view, like goals, assists, and key plays.
+
+# CORS policy prevented some UI content from being displayed.
+  # News content for Premier League and Champions league, etc.
+![Screenshot (63)](https://github.com/user-attachments/assets/96342667-3d29-4ace-9cb0-e7bafab8e747)
+
+[![FootballEvo Banner](images/Screenshot (64))
+
+
+
