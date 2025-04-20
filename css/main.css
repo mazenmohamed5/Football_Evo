@@ -389,10 +389,10 @@ body{
 }
 
 .slider-caption {
-    width: 700px;
+    /* width: 700px; */
     position: absolute;
     top: 270px; 
-    left: -8%;
+    left: 0px;
     text-align: center;
     background: rgba(0, 0, 0, 0.5);
     padding: 20px 30px;
