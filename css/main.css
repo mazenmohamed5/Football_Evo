@@ -436,7 +436,7 @@ body{
 
 .news-title{
     background-color: rgba(0, 0, 0, 0.5);
-    width: 600px;
+    /* width: 600px; */
     padding: 10px 10px;
     transition: all 0.3s ease;
     text-align: center;
@@ -742,69 +742,73 @@ ul{
     
 }
 
-/* iPhone XR - width: 414px */
+
 @media only screen and (max-width: 414px) {
     .caption-title h3 {
-      font-size: 1.4rem;
+        font-size: 1.4rem;
     }
-  
+
     .caption-title p {
-      font-size: 0.9rem;
+        font-size: 0.9rem;
     }
-  
+
     .carousel-img {
-      height: auto;
-      max-width: 100%;
+        height: auto;
+        max-width: 100%;
     }
-  
+
     .fixtureImg {
-      width: 60px;
-      height: auto;
+        width: 60px;
+        height: auto;
     }
-  
+
     .matchCaption h5,
     .matchCaption p {
-      font-size: 0.95rem;
-      text-align: center;
+        font-size: 0.95rem;
+        text-align: center;
     }
-  }
-  
-  /* iPhone XS - width: 375px */
-  @media only screen and (max-width: 375px) {
+}
+
+
+@media only screen and (max-width: 375px) {
     .caption-title h3 {
-      font-size: 1.2rem;
+        font-size: 1.2rem;
     }
-  
+
     .caption-title p {
-      font-size: 0.85rem;
+        font-size: 0.85rem;
     }
-  
+
     .a.btn {
-      padding: 0.4rem 0.8rem;
-      font-size: 0.85rem;
+        padding: 0.4rem 0.8rem;
+        font-size: 0.85rem;
     }
-  
+
     .importantMatch {
-      flex-direction: column;
-      align-items: center;
-      gap: 10px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
     }
-  
+
     .fixtureImg {
-      width: 50px;
+        width: 50px;
     }
-  
+
     .slider-caption p {
-      font-size: 0.8rem;
-      text-align: center;
+        font-size: 0.8rem;
+        text-align: center;
     }
-  }
+}
   
 
 
 
 
 
+
+
+
+  
 
 
 
