@@ -1,0 +1,187 @@
+<html>
+  <head>
+    <title>SoccerEvo</title>
+    <link rel="icon" href="/images/logo.png" type="image/png">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Live football scores, groups, and events with ScoreEvo.">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+
+  </head>
+  <body>
+    
+    <div class="leagues-container">
+      <!-- Navbar & Caption -->
+      <div  id="home-container">
+
+        <div id="home-header">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+    
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/index.html">Home</a>
+                            </li>
+                            
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="#main" role="button"  aria-expanded="false">
+                                  Leagues
+                                </a>
+                            </li>
+
+    
+                            <li class="nav-item">
+                                <a class="nav-link" href="/contact.html">Contact</a>
+                            </li>
+                        </ul>
+    
+                    </div>
+                </div>
+            </nav>
+            <div id="home-header-logo">
+                <img class="home-header-logo" src="/images/home-images/homeLogo.png"  alt="Logo">
+            </div>
+    
+        </div>
+  
+      <div id="home-caption">
+          <div class="caption-title">
+              <h3>Where Football Never Sleeps.</h3>
+              <p>Track the drama of every matchday across Europe’s top leagues. Scores, stats, and stories — all in one home.</p>
+              <a class="btn a" href="#main">View Leagues</a>
+              <a class="btn a" href="#">Learn More</a>
+          </div>
+      </div>
+
+    </div>
+
+    <!-- League's Logos & bar that contains [Standings - Matches - Teams - Top Scorer] -->
+    <div class="container" id="main">
+        <div class="row">
+          <div class="options-1 d-flex justify-content-center align-items-center flex-wrap w-100 gap-3" data-collapse-group="leagues">
+      
+            <!-- Premier League Button -->
+            <a class="btn rounded-circle ui league-btn" data-bs-toggle="collapse" href="#plCollapse"
+              data-league="PL" role="button" aria-expanded="false" aria-controls="plCollapse">
+              <img src="/images/PL-logo.png" class="PL-Logo" alt="Premier League">
+            </a>
+            <!-- La Liga Button -->
+            <a class="btn rounded-circle ui league-btn" data-bs-toggle="collapse" href="#PDCollapse"
+            data-league="PD" role="button" aria-expanded="false" aria-controls="PDCollapse">
+            <img src="/images/PD-logo.png" class="PL-Logo" alt="La Liga">
+            </a>
+      
+            <!-- Bundesliga Button -->
+            <a class="btn rounded-circle ui" data-league="BL1" data-bs-toggle="collapse" href="#bundesCollapse" role="button" aria-expanded="false" aria-controls="bundesCollapse">
+              <img src="/images/bl-logo.png" class="PL-Logo">
+            </a>
+      
+            <!-- Serie A Button -->
+            <a class="btn rounded-circle ui" data-league="SA" data-bs-toggle="collapse" href="#serieCollapse" role="button" aria-expanded="false" aria-controls="serieCollapse">
+              <img src="/images/seria.png" class="PL-Logo">
+            </a>
+      
+            <!-- Ligue 1 Button -->
+            <a class="btn rounded-circle ui" data-league="FL1" data-bs-toggle="collapse" href="#ligueCollapse" role="button" aria-expanded="false" aria-controls="ligueCollapse">
+              <img src="/images/L1.png" class="PL-Logo">
+            </a>
+      
+            <!-- Champions League Button -->
+            <a class="btn rounded-circle ui" data-league="CL"  data-bs-toggle="collapse" href="#uclCollapse" role="button" aria-expanded="false" aria-controls="uclCollapse">
+              <img src="/images/CL-LOGO.jpeg" class="PL-Logo">
+            </a>
+            
+          </div>
+        </div>
+    
+      
+      <div class="options bg-light py-3">
+        <ul class="list-unstyled d-flex justify-content-around align-items-center w-100 m-0">
+          <li><a id="standingsBtn" href="#">Standings</a></li>
+          <li><a id="matchesBtn" href="#">Matches</a></li>
+          <li><a id="teamsBtn" href="#">Teams</a></li>
+          <li><a id="topScorerBtn" href="#">Top-Scorer</a></li>
+        </ul>
+      </div>
+      
+      
+      
+      <div class="standings p-2 mt-1 ">
+        <div id="standings" class="row">
+
+        </div>
+      </div>
+
+      <div class="p-2 mt-1">
+        <div id="teams" class="row"> 
+            
+        </div>  
+        
+      </div>
+      <div class="p-2 mt-1">
+        <div id="matches" class="row">
+
+          
+        </div>
+      </div>
+
+      <div class="p-2 mt-1">
+        <div id="scorer" class="row">
+          
+        </div>
+          
+      </div>
+
+    </div>
+  </div>
+    
+    <!-- Footer -->
+    <div class="footer">
+      <marquee>
+        <img src="/images/white-cl.png" class="image">
+        <img src="/images/bl-logo.png" class="image">
+        <img src="/images/white-l1.png" class="image">
+        <img src="/images/whitepl.png" class="image">
+        <img src="/images/PD-logo.png" class="image">
+        <img src="/images/seria.png" class="image ">
+      </marquee>
+      <div class="footer-links">
+        <a href="#">About Us</a> | 
+        <a href="#">Contact</a> | 
+        <a href="#">Privacy Policy</a> | 
+        <a href="#">Terms of Service</a>
+      </div>
+      <div class="footer-copyRights w-50">
+
+        <p class="footer-text text-light ms-2">© 2025 Soccer Evo. All Rights Reserved. | Evolving the Beautiful Game.</p>
+
+      </div>
+      
+    </div>
+    
+    
+    <!-- Axios -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.8.4/axios.min.js"></script>
+    <!-- JS scripts -->
+    <script src="/js/jquery-3.7.1.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/leagues.js"></script>
+
+  </body>
+</html>

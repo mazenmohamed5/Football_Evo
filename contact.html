@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <title>SoccerEvo</title>
+        <link rel="icon" href="/images/logo.png" type="image/png">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Live football scores, groups, and events with ScoreEvo.">
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/all.min.css">
+        <link rel="stylesheet" href="/css/main.css">
+    </head>
+
+    
+    <body>
+        <div class="contact-container">
+            <!-- Navbar & Caption -->
+            <div id="home-container" >
+                <div id="home-header">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent"
+                                aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/index.html">Home</a>
+                                    </li>
+                                    
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link" href="leagues.html?League=PL" role="button"  aria-expanded="false">
+                                        Leagues
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                    <div id="home-header-logo">
+                        <img class="home-header-logo" src="/images/home-images/homeLogo.png"  alt="Logo">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Contact Form and personal information -->
+            <section class="contactUs overflow-hidden">
+
+                <div class="container">
+                    <div id="ContactArea" class="row text-white">
+                    
+                    
+                        <div id="contactInput" class="col-12 col-md-6 col-lg-4">
+                            
+                            <form id="contactForm" class="row g-3" method="POST">
+                                <h1 class="text-center text-black mt-5">Get in Touch</h1>
+                                <div class="form-group">
+                                    <input type="text" class="form-control mb-2" id="name" placeholder="Name" name="name" >
+                                    <input type="email" class="form-control mb-2" id="email" placeholder="Email" name="email" >
+                                    <input type="text" class="form-control mb-2" id="contactMessage" placeholder="Message" name="message" >
+                                </div>
+                                
+                            </form>
+                            <button id="contactBtn" class="btn btn-primary ">Submit</button>
+                        </div>
+                        
+                        <div class="personalInfo col-12 col-md-6 col-lg-4">
+                            <div class="alternativeInfo">
+                                <p>Have questions or need support? <br>Fill out the form, and we'll get back to you as soon as
+                                    possible.</p>
+                                <p class="text-white"><i class="fa-solid fa-envelope "></i><a class="text-white text-decoration-none ms-2" href="mailto:support@example.com">Email: support@example.com</a></p>
+        
+                                <p class="text-white"><i class="fa-solid fa-phone"></i><a class="text-white text-decoration-none ms-2" href="tel:+1234567890">Phone: +1 (234) 567-890</a></p>
+                                    
+                                <p><i class="fa-solid fa-map-pin"></i> <a class="text-white text-decoration-none ms-2" >Address: Amesterdam,56789,The Netherlands</a></p>
+                                
+                                <ul class="list text-white mt-4">
+                                    <li><a href="https://twitter.com/yourhandle" target="_blank"></a><i class="fa-brands fa-x-twitter"></i></li>
+                                            
+                                    <li><a href="https://linkedin.com/in/yourprofile" target="_blank"></a><i class="fa-brands fa-linkedin"></i></li>
+                                            
+                                    <li><a href="https://github.com/yourusername" target="_blank" ></a><i class="fa-brands fa-github"></i></li>
+        
+                                    <li><a href="https://instagram.com/yourusername" target="_blank" ></a><i class="fa-brands fa-instagram"></i></li>     
+                                </ul>
+        
+                            </div>
+                        </div>
+        
+                    </div>
+
+                </div>
+            </section>    
+                
+            
+        </div>  
+        
+        <!-- AXIOS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.8.4/axios.min.js"></script>
+        <!-- JS scripts -->
+        <script src="/js/jquery-3.7.1.js"></script>
+        <script src="/js/popper.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>  
+        <script src="/contact.js"></script>  
+    </body>
+</html>
