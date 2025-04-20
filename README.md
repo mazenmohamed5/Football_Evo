@@ -61,9 +61,19 @@ Player Transfer Tracking: Provide information about player transfers, rumors, an
 Interactive Highlights: Allow users to interact with match highlights, choosing specific moments to view, like goals, assists, and key plays.
 
 # CORS policy prevented some UI content from being displayed.
-  # News content for Premier League and Champions league, etc.
+News content for Premier League and Champions league, etc.
+-
 ![Screenshot (63)](https://github.com/user-attachments/assets/96342667-3d29-4ace-9cb0-e7bafab8e747)
-![App Screenshot](images/Screenshot%20(63).png)
+
+![App Screenshot](images/Screenshot%20(64).png)
+
+League content [Standings - Matches - Teams - Top-Scorer ]
+-
+![App Screenshot](images/Screenshot%20(65).png)
+![App Screenshot](images/Screenshot%20(66).png)
+![App Screenshot](images/Screenshot%20(67).png)
+![App Screenshot](images/Screenshot%20(68).png)
+
 
 
 
